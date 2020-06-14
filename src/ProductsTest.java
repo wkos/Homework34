@@ -15,6 +15,6 @@ public class ProductsTest {
                 "   wielkość rabatu: " + specialOffer.discount);
         product2.show();
         product3.show();
-        product4.show(true);
+        product4.showWithoutCategory();
     }
 }

@@ -22,7 +22,7 @@ public class Product {
         System.out.println("  Kategoria:   " + category.name + " (" + category.description + ")");
     }
 
-    public void show(boolean withoutCategory){
+    public void showWithoutCategory(){
         System.out.println("\n" + name + " (" + description + ") cena: " + price + "zł");
         System.out.println("  Kategoria:   brak");
     }
